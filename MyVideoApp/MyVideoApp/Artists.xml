@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Songs>
+  <VideoSong name="JukeBox">
+    <SongName>Mohammed Rafi</SongName>
+    <SongPath>CXM4jvuFMlI</SongPath>
+  </VideoSong>
+
+  <VideoSong name="JukeBox">
+    <SongName>Kishore Kumar</SongName>
+    <SongPath>gkheNQeraOU</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Dhoom3">
+    <SongName>Lata Mangeshkar</SongName>
+    <SongPath>p1WHtWokn2U</SongPath>
+  </VideoSong>
+
+  <VideoSong name="JukeBox">
+    <SongName>R D Burman Songs</SongName>
+    <SongPath>7EdGjA2LfGw</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Krrish 3">
+    <SongName>Asha Bhosle and Kishore Kumar Duets</SongName>
+    <SongPath>ynwZmOUySio</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Krrish 3">
+    <SongName>Kalyanji - Kalyanji-Anandji</SongName>
+    <SongPath>0epDBrjoSjY</SongPath>
+  </VideoSong>
+
+  <VideoSong name="JukeBox">
+    <SongName>Rajesh Khanna</SongName>
+    <SongPath>CNWhJYS_Q5c</SongPath>
+  </VideoSong>
+
+  <VideoSong name="JukeBox">
+    <SongName>Rishi Kapoor</SongName>
+    <SongPath>tjw6MVC2qPA</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Gulzar</SongName>
+    <SongPath>r5__T2zdzto</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>sonu nigam</SongName>
+    <SongPath>xzn0kslToB0</SongPath>
+  </VideoSong>
+
+ <!--<VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Shreya Ghoshal</SongName>
+    <SongPath>Ei9he0Xja_Y</SongPath>
+  </VideoSong>-->
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Alka Yagnik</SongName>
+    <SongPath>-PbJn4QEzwc</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Rahat Fateh Ali Khan</SongName>
+    <SongPath>WARJAtfE85k</SongPath>
+  </VideoSong>
+  
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Kumar Sanu Sad Songs</SongName>
+    <SongPath>iZd8EXA7rXw</SongPath>
+  </VideoSong>
+
+  <!--<VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Aamir Khan</SongName>
+    <SongPath>ywmC8SEqDkg</SongPath>
+  </VideoSong>
+-->
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Mohit Chauhan</SongName>
+    <SongPath>ts787XwyDhM</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>MITHOON</SongName>
+    <SongPath>kPwsMDhFn74</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>arijit singh</SongName>
+    <SongPath>1M2gC86Q_9o</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Best Of Madhuri Dixit</SongName>
+    <SongPath>vuuHt0lh_FQ</SongPath>
+  </VideoSong>
+
+  <!--<VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Preity Zinta</SongName>
+    <SongPath>O6zeKtGVrT4</SongPath>
+  </VideoSong>
+
+  <VideoSong name="Yeh Jawaani Hai Deewani">
+    <SongName>Amitabh Bachchan</SongName>
+    <SongPath>GxarWmq38bU</SongPath>
+  </VideoSong>-->
+</Songs>

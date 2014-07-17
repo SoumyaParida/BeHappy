@@ -1,0 +1,66 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:UI="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI" 
+    x:Class="VideoApp.MainPage"
+    
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/background.jpg"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--<toolkit:ToggleSwitch x:Name="FluxToggle"                                  
+                     Header="Status" 
+                     Checked="ToggleSwitch_Checked" 
+                     Unchecked="ToggleSwitch_Unchecked"
+                     Margin="0,489,0,0" Grid.Row="1"/>-->
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Watch Songs Online" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Be Happy" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="0,151,-18,10" Grid.RowSpan="2">
+
+            <Button x:Name="Bollywood" Content="BollyWood" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top" Width="381" Click="Button_Bollywood" BorderThickness="0" FontFamily="Segoe WP" FontSize="24"/>
+            <Button x:Name="Punjabi" Content="Punjabi" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="381" BorderThickness="0" FontSize="24" FontFamily="Segoe WP" Click="Punjabi_Click"/>
+            <Button x:Name="Tamil" Content="Tamil" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="381" BorderThickness="0" FontSize="24" FontFamily="Segoe WP" Click="Tamil_Click"/>
+            <TextBox x:Name="SearchBox" Background="#FF00B4FF" HorizontalAlignment="Left" Height="72" Margin="0,453,0,0" TextWrapping="Wrap" Text="Search video in youtube" VerticalAlignment="Top" Width="345"/>
+            <Button Content="Search" HorizontalAlignment="Left" Margin="345,453,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="136"/>
+
+
+            <UI:AdControl ApplicationId="b1f137e4-cda5-4931-943c-8d0235b14c87" AdUnitId="10337082" HorizontalAlignment="Left" Height="80" Margin="0,530,0,0" VerticalAlignment="Top" Width="480"/>
+
+
+            <!--Create a single button to navigate to the second page which is rendered with the XNA Framework-->
+
+        </Grid>
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>
